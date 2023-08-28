@@ -43,12 +43,14 @@ main{
 }
 
 .codeArea{
-    width: 95%;
+    width: 92%;
     height: 99%;
     background-color: var(--bg);
     border: 1px solid white;
     resize: none;
     color: white;
+    font-size: 35px;
+    float: right;
 }
 
 .run{
@@ -59,6 +61,16 @@ main{
     border-radius: 25px;
     float: right;
     position: relative;
-    bottom: 75%;
+    bottom: 50%;
     margin-right: 25px;
+}
+
+.lineNumber{
+    width: 7%;
+    height: 100%;
+    font-size: 35px;
+    resize: none;
+    color: white;
+    background-color: var(--bg);
+    overflow-y: hidden;
 }
