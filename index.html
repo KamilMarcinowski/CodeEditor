@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeEditor</title>
+</head>
+<body>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <center><h1>Code Editor</h1></center>
+            <button class="run" id="run">Run</button>
+        </header>
+        <main>
+            <iframe id="output" class="output" src="" frameborder="0"></iframe>
+            <div class="code" id="left-box">
+                <textarea class="codeArea" id="codeArea" cols="30" rows="10"></textarea>
+            </div>
+        </main>
+    </div>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
